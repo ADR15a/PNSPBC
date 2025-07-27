@@ -1,0 +1,62 @@
+/* Contenedor general centrado */
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d0d0d;
+  padding: 20px;
+}
+
+/* Caja del formulario */
+.contacto-box {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+}
+
+/* Estilo del formulario */
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-contacto label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.formulario-contacto input:focus,
+.formulario-contacto textarea:focus {
+  outline: 2px solid #00ffff;
+}
+
+.btn-gamer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00ffff;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-gamer:hover {
+  background-color: #00bfbf;
+}

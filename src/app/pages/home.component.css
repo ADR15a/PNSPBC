@@ -1,0 +1,46 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Toma el 100% del alto de la ventana */
+  background-color: #121212; /* Fondo oscuro */
+  color: #ffffff; /* Letras claras */
+  text-align: center;
+  font-family: 'Orbitron', sans-serif; /* Letra gamer */
+}
+
+h1 {
+  font-size: 3rem;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+p {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+/* Animación de brillo */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  }
+  to {
+    text-shadow: 0 0 20px #0ff, 0 0 30px #0ff;
+  }
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #1f1f1f;
+  border: 2px solid #0ff;
+  color: #0ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0ff;
+  color: #000;
+  font-weight: bold;
+}
