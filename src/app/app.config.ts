@@ -4,6 +4,6 @@ import { appRoutes } from './app.routes';
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideRouter(appRoutes, withHashLocation())  // <-- esta es la forma moderna
+    provideRouter(appRoutes, withHashLocation())
   ],
 };
